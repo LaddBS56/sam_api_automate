@@ -17,7 +17,7 @@ posted_to = today.strftime("%m/%d/%Y")
 
 # ---------- REQUEST ----------
 params = {
-    "limit": 100,
+    "limit": 10000,
     "postedFrom": posted_from,
     "postedTo": posted_to
 }
