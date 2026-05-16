@@ -24,7 +24,9 @@ jobs:
       - name: Run script
         env:
           SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
-        run: python fetch.py
+        run: |
+          python -V
+          python fetch.py
 
       - name: Commit results
         run: |
