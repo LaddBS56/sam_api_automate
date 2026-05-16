@@ -37,12 +37,16 @@ while True:
         "postedTo": posted_to
     }
 
+    
     resp = requests.get(BASE_URL, headers=headers, params=params, timeout=60)
+    print(f"Request offset={offset} status={resp.status_code} url={resp.url}")
 
-    # Helpful diagnostics if something goes wrong
-    print(f"Request offset={offset} status={resp.status_code}")
+    if resp.status_code >= 400:
+        # Print a snippet of the body to see the real API error message
+        print("Error body (first 1000 chars):")
+        print(resp.text[:1000])
+        resp.raise_for_status()
 
-    resp.raise_for_status()
     payload = resp.json()
 
     # opportunitiesData is the main array in the response (what Power BI expands)
