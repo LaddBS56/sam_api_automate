@@ -11,9 +11,9 @@ headers = {"X-Api-Key": API_KEY, "Accept": "application/json"}
 
 # ---------- Configuration ----------
 today = datetime.now(timezone.utc)
-window_days = 30          # Pull last 30 days of opportunities
-chunk_days = 30           # Single chunk = single date range
-limit = 1000              # Max page size allowed by SAM.gov
+window_days = 30
+chunk_days = 30
+limit = 1000
 
 all_rows = []
 seen_ids = set()
@@ -22,8 +22,8 @@ seen_ids = set()
 for chunk_start in range(window_days, 0, -chunk_days):
     chunk_end = max(chunk_start - chunk_days, 0)
     posted_from = (today - timedelta(days=chunk_start)).strftime("%m/%d/%Y")
-    posted_to   = (today - timedelta(days=chunk_end)).strftime("%m/%d/%Y")
-    print(f"\nFetching {posted_from} → {posted_to}")
+    posted_to = (today - timedelta(days=chunk_end)).strftime("%m/%d/%Y")
+    print(f"\nFetching {posted_from} -> {posted_to}")
 
     offset = 0
     while True:
@@ -42,16 +42,15 @@ for chunk_start in range(window_days, 0, -chunk_days):
 
         print(f"  offset={offset} status={resp.status_code}")
 
-        # Graceful 429 handling — log and exit cleanly
         if resp.status_code == 429:
             try:
                 body = resp.json()
                 next_access = body.get("nextAccessTime", "unknown")
-                print(f"\n⚠️  Rate limit hit. Next access: {next_access}")
-                print("Exiting cleanly — existing sam_data.json will remain unchanged.")
+                print(f"\nRate limit hit. Next access: {next_access}")
             except Exception:
-                print(f"\n⚠️  Rate limit hit (could not parse response).")
-            exit(0)  # Exit 0 so the workflow shows success, not failure
+                print("\nRate limit hit (could not parse response).")
+            print("Exiting cleanly - existing sam_data.json will remain unchanged.")
+            exit(0)
 
         if resp.status_code >= 400:
             print(resp.text[:1000])
@@ -62,7 +61,6 @@ for chunk_start in range(window_days, 0, -chunk_days):
         if not page_rows:
             break
 
-        # Dedupe across pages (and against any prior chunks)
         new_rows = [r for r in page_rows if r.get("noticeId") not in seen_ids]
         for r in new_rows:
             seen_ids.add(r.get("noticeId"))
@@ -81,3 +79,9 @@ out = {
     "windowDays": window_days,
     "totalOpportunities": len(all_rows),
     "opportunitiesData": all_rows,
+}
+
+with open("sam_data.json", "w") as f:
+    json.dump(out, f, indent=2)
+
+print(f"\nSaved {len(all_rows)} opportunities to sam_data.json")
