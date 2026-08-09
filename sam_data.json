@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-09T10:40:30.222939+00:00",
+  "generated_utc": "2026-08-09T15:36:29.431038+00:00",
   "windowDays": 30,
   "totalOpportunities": 1000,
   "opportunitiesData": [
@@ -3954,6 +3954,72 @@
     {
       "active": "Yes",
       "additionalInfoLink": null,
+      "archiveDate": "2026-09-25",
+      "archiveType": "auto15",
+      "award": null,
+      "baseType": "Sources Sought",
+      "classificationCode": "6150",
+      "description": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=913d736789614dc19a347bb698a4c9c3",
+      "fullParentPathCode": "089.8900.892331",
+      "fullParentPathName": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.NNSA NON-MO CNTRCTNG OPS DIV",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.sam.gov/prod/opportunities/v2/search?noticeid=913d736789614dc19a347bb698a4c9c3&limit=1"
+        }
+      ],
+      "naicsCode": "335999",
+      "naicsCodes": [
+        "335999"
+      ],
+      "noticeId": "913d736789614dc19a347bb698a4c9c3",
+      "officeAddress": {
+        "zipcode": "87185",
+        "city": "ALBUQUERQUE",
+        "countryCode": "USA",
+        "state": "NM"
+      },
+      "organizationType": "OFFICE",
+      "placeOfPerformance": {
+        "city": {
+          "code": "0",
+          "name": "0"
+        },
+        "state": {
+          "code": "NM",
+          "name": "New Mexico"
+        },
+        "zip": "87117",
+        "country": {
+          "code": "USA",
+          "name": "UNITED STATES"
+        }
+      },
+      "pointOfContact": [
+        {
+          "fax": "",
+          "type": "primary",
+          "email": "brenda.hamilton1@nnsa.doe.gov",
+          "phone": "5058455657",
+          "fullName": "Hamilton, Brenda Rae"
+        }
+      ],
+      "postedDate": "2026-08-09",
+      "resourceLinks": [
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f07f5a8668c4ff0be6a4c2ba32c67c9/download",
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a2cb4d10426641b7a8a9d2c124c40610/download"
+      ],
+      "responseDeadLine": "2026-09-10T14:00:00-06:00",
+      "solicitationNumber": "NAPAS315NextGenTransporter",
+      "title": "RFI Next Generation Transporter Solutions",
+      "type": "Sources Sought",
+      "typeOfSetAside": "NONE",
+      "typeOfSetAsideDescription": "No Set aside used",
+      "uiLink": "https://sam.gov/workspace/contract/opp/913d736789614dc19a347bb698a4c9c3/view"
+    },
+    {
+      "active": "Yes",
+      "additionalInfoLink": null,
       "archiveDate": "2026-09-16",
       "archiveType": "autocustom",
       "award": null,
@@ -6257,6 +6323,124 @@
     {
       "active": "Yes",
       "additionalInfoLink": null,
+      "archiveDate": "2027-08-09",
+      "archiveType": "autocustom",
+      "award": null,
+      "baseType": "Combined Synopsis/Solicitation",
+      "classificationCode": "7310",
+      "description": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=63b4557d46b54ea881e47d4118a34f94",
+      "fullParentPathCode": "021.2100.NGB.JFHQ USPFO SD.USPFO SD PROC.W50S96",
+      "fullParentPathName": "DEPT OF DEFENSE.DEPT OF THE ARMY.NATIONAL GUARD BUREAU.JFHQ USPFO SD.USPFO SD PROCUREMENT.W7N0 USPFO ACTIVITY SDANG 114",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.sam.gov/prod/opportunities/v2/search?noticeid=63b4557d46b54ea881e47d4118a34f94&limit=1"
+        }
+      ],
+      "naicsCode": "333241",
+      "naicsCodes": [
+        "333241"
+      ],
+      "noticeId": "63b4557d46b54ea881e47d4118a34f94",
+      "officeAddress": {
+        "zipcode": "57104-0264",
+        "city": "SIOUX FALLS",
+        "countryCode": "USA",
+        "state": "SD"
+      },
+      "organizationType": "OFFICE",
+      "placeOfPerformance": {
+        "streetAddress": "",
+        "zip": ""
+      },
+      "pointOfContact": [
+        {
+          "fax": "",
+          "type": "primary",
+          "email": "steven.audinet.1@us.af.mil",
+          "phone": "605-988-5933",
+          "fullName": "Steven Audinet"
+        },
+        {
+          "fax": "",
+          "type": "secondary",
+          "email": "eric.comes@us.af.mil",
+          "phone": "605-988-5932",
+          "fullName": "Eric Comes"
+        }
+      ],
+      "postedDate": "2026-08-09",
+      "resourceLinks": null,
+      "responseDeadLine": "2026-08-21T14:00:00-05:00",
+      "solicitationNumber": "W50S9626QA016",
+      "title": "Kitchen Equipment",
+      "type": "Combined Synopsis/Solicitation",
+      "typeOfSetAside": "SBA",
+      "typeOfSetAsideDescription": "Small Business Set Aside - Total",
+      "uiLink": "https://sam.gov/workspace/contract/opp/63b4557d46b54ea881e47d4118a34f94/view"
+    },
+    {
+      "active": "Yes",
+      "additionalInfoLink": null,
+      "archiveDate": "2027-08-09",
+      "archiveType": "autocustom",
+      "award": null,
+      "baseType": "Combined Synopsis/Solicitation",
+      "classificationCode": "7810",
+      "description": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=62267fa4ccc84d1ba2166ddf5197a571",
+      "fullParentPathCode": "021.2100.NGB.JFHQ USPFO SD.USPFO SD PROC.W50S96",
+      "fullParentPathName": "DEPT OF DEFENSE.DEPT OF THE ARMY.NATIONAL GUARD BUREAU.JFHQ USPFO SD.USPFO SD PROCUREMENT.W7N0 USPFO ACTIVITY SDANG 114",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.sam.gov/prod/opportunities/v2/search?noticeid=62267fa4ccc84d1ba2166ddf5197a571&limit=1"
+        }
+      ],
+      "naicsCode": "339920",
+      "naicsCodes": [
+        "339920"
+      ],
+      "noticeId": "62267fa4ccc84d1ba2166ddf5197a571",
+      "officeAddress": {
+        "zipcode": "57104-0264",
+        "city": "SIOUX FALLS",
+        "countryCode": "USA",
+        "state": "SD"
+      },
+      "organizationType": "OFFICE",
+      "placeOfPerformance": {
+        "streetAddress": "",
+        "zip": ""
+      },
+      "pointOfContact": [
+        {
+          "fax": "",
+          "type": "primary",
+          "email": "steven.audinet.1@us.af.mil",
+          "phone": "605-988-5933",
+          "fullName": "Steven Audinet"
+        },
+        {
+          "fax": "",
+          "type": "secondary",
+          "email": "eric.comes@us.af.mil",
+          "phone": "605-988-5932",
+          "fullName": "Eric Comes"
+        }
+      ],
+      "postedDate": "2026-08-09",
+      "resourceLinks": null,
+      "responseDeadLine": "2026-08-20T14:00:00-05:00",
+      "solicitationNumber": "W50S9626QA020",
+      "title": "Gym Equipment",
+      "type": "Combined Synopsis/Solicitation",
+      "typeOfSetAside": "SBA",
+      "typeOfSetAsideDescription": "Small Business Set Aside - Total",
+      "uiLink": "https://sam.gov/workspace/contract/opp/62267fa4ccc84d1ba2166ddf5197a571/view"
+    },
+    {
+      "active": "Yes",
+      "additionalInfoLink": null,
       "archiveDate": "2026-09-23",
       "archiveType": "autocustom",
       "award": null,
@@ -6347,6 +6531,81 @@
       "typeOfSetAside": null,
       "typeOfSetAsideDescription": null,
       "uiLink": "https://sam.gov/workspace/contract/opp/60259e94c6914e75a8d420a0e1f9a301/view"
+    },
+    {
+      "active": "Yes",
+      "additionalInfoLink": null,
+      "archiveDate": "2026-08-28",
+      "archiveType": "auto15",
+      "award": null,
+      "baseType": "Solicitation",
+      "classificationCode": "4630",
+      "description": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=5fd294cd48374bcba9a8ac29cbb3f3d6",
+      "fullParentPathCode": "057.5700.USAFE.FA5587",
+      "fullParentPathName": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.U.S. AIR FORCES IN EUROPE.FA5587  48 CONS (ADMIN ONLY NO REQ)",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.sam.gov/prod/opportunities/v2/search?noticeid=5fd294cd48374bcba9a8ac29cbb3f3d6&limit=1"
+        }
+      ],
+      "naicsCode": "221320",
+      "naicsCodes": [
+        "221320"
+      ],
+      "noticeId": "5fd294cd48374bcba9a8ac29cbb3f3d6",
+      "officeAddress": {
+        "zipcode": "09461-5120",
+        "city": "APO",
+        "countryCode": "USA",
+        "state": "AE"
+      },
+      "organizationType": "OFFICE",
+      "placeOfPerformance": {
+        "city": {
+          "code": "APO",
+          "name": "APO"
+        },
+        "state": {
+          "code": "GB-SFK",
+          "name": "Suffolk"
+        },
+        "zip": "09461",
+        "country": {
+          "code": "GBR",
+          "name": "UNITED KINGDOM"
+        }
+      },
+      "pointOfContact": [
+        {
+          "fax": "",
+          "type": "primary",
+          "email": "christian.cuevas@us.af.mil",
+          "phone": "314-226-2481",
+          "fullName": "TSgt Christian Cuevas"
+        },
+        {
+          "fax": "",
+          "type": "secondary",
+          "email": "veronica.batista_velez@us.af.mil",
+          "phone": "314-226-3080",
+          "fullName": "SrA Veronica Batista Velez"
+        }
+      ],
+      "postedDate": "2026-08-09",
+      "resourceLinks": [
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/68ed191da5e34da9ab4d2770eca4863d/download",
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9fd3f918b0b7471e8c1a68930697d3fe/download",
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b4f17d2f055845848207fef885070943/download",
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ee76492fb3b341a28894863fb327539d/download"
+      ],
+      "responseDeadLine": "2026-08-13T15:00:00+01:00",
+      "solicitationNumber": "FA558726Q0040",
+      "title": "48 CES - Diesel Sewage Pump",
+      "type": "Solicitation",
+      "typeOfSetAside": "NONE",
+      "typeOfSetAsideDescription": "No Set aside used",
+      "uiLink": "https://sam.gov/workspace/contract/opp/5fd294cd48374bcba9a8ac29cbb3f3d6/view"
     },
     {
       "active": "Yes",
@@ -8227,6 +8486,71 @@
       "typeOfSetAside": null,
       "typeOfSetAsideDescription": null,
       "uiLink": "https://sam.gov/workspace/contract/opp/36629c3e9acd43febb2a7d2b593d4c2d/view"
+    },
+    {
+      "active": "Yes",
+      "additionalInfoLink": null,
+      "archiveDate": "2026-08-19",
+      "archiveType": "autocustom",
+      "award": null,
+      "baseType": "Special Notice",
+      "classificationCode": "Q403",
+      "description": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=3610235e369f4770b7c390eecf0d08b9",
+      "fullParentPathCode": "019.1900.19KU20",
+      "fullParentPathName": "STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.US EMBASSY KUWAIT",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.sam.gov/prod/opportunities/v2/search?noticeid=3610235e369f4770b7c390eecf0d08b9&limit=1"
+        }
+      ],
+      "naicsCode": "62151",
+      "naicsCodes": [
+        "62151"
+      ],
+      "noticeId": "3610235e369f4770b7c390eecf0d08b9",
+      "officeAddress": {
+        "zipcode": "20520",
+        "city": "WASHINGTON",
+        "countryCode": "USA",
+        "state": "DC"
+      },
+      "organizationType": "OFFICE",
+      "placeOfPerformance": {
+        "city": {
+          "code": "Bayan",
+          "name": "Bayan"
+        },
+        "state": {
+          "code": "KW-HA",
+          "name": "\u1e28awall\u012b"
+        },
+        "zip": "13001",
+        "country": {
+          "code": "KWT",
+          "name": "KUWAIT"
+        }
+      },
+      "pointOfContact": [
+        {
+          "fax": "",
+          "type": "primary",
+          "email": "kuwait_solicitation@state.gov",
+          "phone": "96522591216",
+          "fullName": "Mohammad El Chami"
+        }
+      ],
+      "postedDate": "2026-08-09",
+      "resourceLinks": [
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ebe4f78a93bb41df9bbe17bde1c11dd7/download"
+      ],
+      "responseDeadLine": "2026-08-19T10:00:00+03:00",
+      "solicitationNumber": "PR16184335",
+      "title": "Intent to Establish a Blanket Purchase Agreement (BPA) for Medical Examination Services, U.S. Embassy Kuwait",
+      "type": "Special Notice",
+      "typeOfSetAside": "NONE",
+      "typeOfSetAsideDescription": "No Set aside used",
+      "uiLink": "https://sam.gov/workspace/contract/opp/3610235e369f4770b7c390eecf0d08b9/view"
     },
     {
       "active": "Yes",
@@ -60611,342 +60935,6 @@
       "typeOfSetAside": "SBA",
       "typeOfSetAsideDescription": "Small Business Set Aside - Total",
       "uiLink": "https://sam.gov/workspace/contract/opp/69ee57c370684e63ab2b6158ed11808f/view"
-    },
-    {
-      "active": "Yes",
-      "additionalInfoLink": null,
-      "archiveDate": "2026-08-22",
-      "archiveType": "auto15",
-      "award": {
-        "date": "2026-08-07",
-        "number": "140A2326P0248",
-        "amount": "36358.6",
-        "awardee": {
-          "name": "HMH Education Company",
-          "location": {
-            "streetAddress": "125 HIGH ST FL 9",
-            "city": {
-              "name": "BOSTON"
-            },
-            "state": {
-              "code": "MA",
-              "name": "Massachusetts"
-            },
-            "zip": "02110",
-            "country": {
-              "code": "USA",
-              "name": "UNITED STATES"
-            }
-          }
-        }
-      },
-      "baseType": "Award Notice",
-      "classificationCode": "7A21",
-      "description": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=69d467f4296c4e9ca27794c30a1ab228",
-      "fullParentPathCode": "014.1450.140A23",
-      "fullParentPathName": "INTERIOR, DEPARTMENT OF THE.BUREAU OF INDIAN AFFAIRS.INDIAN EDUCATION ACQUISITION OFFICE",
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.sam.gov/prod/opportunities/v2/search?noticeid=69d467f4296c4e9ca27794c30a1ab228&limit=1"
-        }
-      ],
-      "naicsCode": "513210",
-      "naicsCodes": [
-        "513210"
-      ],
-      "noticeId": "69d467f4296c4e9ca27794c30a1ab228",
-      "officeAddress": {
-        "zipcode": "87104",
-        "city": "Albuquerque",
-        "countryCode": "USA",
-        "state": "NM"
-      },
-      "organizationType": "OFFICE",
-      "placeOfPerformance": {
-        "city": {},
-        "state": {},
-        "country": {}
-      },
-      "pointOfContact": [
-        {
-          "type": "primary",
-          "email": "Brandon.Walker@bie.edu",
-          "phone": "(505) 803-4254",
-          "fullName": "Walker, Brandon"
-        }
-      ],
-      "postedDate": "2026-08-07",
-      "resourceLinks": null,
-      "responseDeadLine": null,
-      "solicitationNumber": "140A2326P0248",
-      "title": "7A--Reading and Math Curriculum for Nenahnezad Communi",
-      "type": "Award Notice",
-      "typeOfSetAside": null,
-      "typeOfSetAsideDescription": null,
-      "uiLink": "https://sam.gov/workspace/contract/opp/69d467f4296c4e9ca27794c30a1ab228/view"
-    },
-    {
-      "active": "Yes",
-      "additionalInfoLink": null,
-      "archiveDate": "2026-08-29",
-      "archiveType": "auto15",
-      "award": null,
-      "baseType": "Presolicitation",
-      "classificationCode": "8945",
-      "description": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=697b0a98e6d04223b83c78280cdda3a1",
-      "fullParentPathCode": "015.1540.15B308",
-      "fullParentPathName": "JUSTICE, DEPARTMENT OF.FEDERAL PRISON SYSTEM / BUREAU OF PRISONS.FCI MARIANNA",
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.sam.gov/prod/opportunities/v2/search?noticeid=697b0a98e6d04223b83c78280cdda3a1&limit=1"
-        }
-      ],
-      "naicsCode": "311999",
-      "naicsCodes": [
-        "311999"
-      ],
-      "noticeId": "697b0a98e6d04223b83c78280cdda3a1",
-      "officeAddress": {
-        "zipcode": "32446",
-        "city": "MARIANNA",
-        "countryCode": "USA",
-        "state": "FL"
-      },
-      "organizationType": "OFFICE",
-      "placeOfPerformance": {
-        "city": {
-          "code": "43175",
-          "name": "Marianna"
-        },
-        "state": {
-          "code": "FL",
-          "name": "Florida"
-        },
-        "zip": "32446",
-        "country": {
-          "code": "USA",
-          "name": "UNITED STATES"
-        }
-      },
-      "pointOfContact": [
-        {
-          "fax": "8505266349",
-          "type": "primary",
-          "email": "kstewart1@bop.gov",
-          "phone": "8505266358",
-          "fullName": "Kenneth Stewart"
-        }
-      ],
-      "postedDate": "2026-08-07",
-      "resourceLinks": [
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3b9c1945678c403c97fdebcc41cdd524/download",
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6c62a79097d942d49ddf919e3afa0816/download"
-      ],
-      "responseDeadLine": "2026-08-14T16:00:00-05:00",
-      "solicitationNumber": "15B30826Q00000012",
-      "title": "FCI Marianna Subsistence, Frozen, Certified Kosher and Halal 1Q FY 2027",
-      "type": "Solicitation",
-      "typeOfSetAside": "SBA",
-      "typeOfSetAsideDescription": "Small Business Set Aside - Total",
-      "uiLink": "https://sam.gov/workspace/contract/opp/697b0a98e6d04223b83c78280cdda3a1/view"
-    },
-    {
-      "active": "Yes",
-      "additionalInfoLink": null,
-      "archiveDate": "2026-08-28",
-      "archiveType": "autocustom",
-      "award": null,
-      "baseType": "Special Notice",
-      "classificationCode": "F099",
-      "description": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=695722e5eb9240e3aa453315d162a6bd",
-      "fullParentPathCode": "012.12C2.124447",
-      "fullParentPathName": "AGRICULTURE, DEPARTMENT OF.FOREST SERVICE.USDA-FS, CSA EAST 8",
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.sam.gov/prod/opportunities/v2/search?noticeid=695722e5eb9240e3aa453315d162a6bd&limit=1"
-        }
-      ],
-      "naicsCode": "115310",
-      "naicsCodes": [
-        "115310"
-      ],
-      "noticeId": "695722e5eb9240e3aa453315d162a6bd",
-      "officeAddress": {
-        "zipcode": "303092449",
-        "city": "Atlanta",
-        "countryCode": "USA",
-        "state": "GA"
-      },
-      "organizationType": "OFFICE",
-      "placeOfPerformance": {
-        "city": {
-          "code": "21280",
-          "name": "Double Springs"
-        },
-        "state": {
-          "code": "AL",
-          "name": "Alabama"
-        },
-        "country": {
-          "code": "USA",
-          "name": "UNITED STATES"
-        }
-      },
-      "pointOfContact": [
-        {
-          "fax": "",
-          "type": "primary",
-          "email": "shannon.wrobel@usda.gov",
-          "phone": "",
-          "fullName": "Shannon Wrobel"
-        }
-      ],
-      "postedDate": "2026-08-07",
-      "resourceLinks": null,
-      "responseDeadLine": "2026-08-27T11:59:00-04:00",
-      "solicitationNumber": "12444726Q0059",
-      "title": "Bankhead Common Stand Exam",
-      "type": "Special Notice",
-      "typeOfSetAside": "SBA",
-      "typeOfSetAsideDescription": "Small Business Set Aside - Total",
-      "uiLink": "https://sam.gov/workspace/contract/opp/695722e5eb9240e3aa453315d162a6bd/view"
-    },
-    {
-      "active": "Yes",
-      "additionalInfoLink": null,
-      "archiveDate": "2026-08-21",
-      "archiveType": "autocustom",
-      "award": null,
-      "baseType": "Solicitation",
-      "classificationCode": "7210",
-      "description": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=69485b68ed02414482cb39d78e1f25af",
-      "fullParentPathCode": "070.7008.70Z034",
-      "fullParentPathName": "HOMELAND SECURITY, DEPARTMENT OF.US COAST GUARD.BASE HONOLULU(00034)",
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.sam.gov/prod/opportunities/v2/search?noticeid=69485b68ed02414482cb39d78e1f25af&limit=1"
-        }
-      ],
-      "naicsCode": "337910",
-      "naicsCodes": [
-        "337910"
-      ],
-      "noticeId": "69485b68ed02414482cb39d78e1f25af",
-      "officeAddress": {
-        "zipcode": "96819",
-        "city": "HONOLULU",
-        "countryCode": "USA",
-        "state": "HI"
-      },
-      "organizationType": "OFFICE",
-      "placeOfPerformance": {
-        "city": {
-          "code": "30300",
-          "name": "Kapolei"
-        },
-        "state": {
-          "code": "HI",
-          "name": "Hawaii"
-        },
-        "zip": "96707",
-        "country": {
-          "code": "USA",
-          "name": "UNITED STATES"
-        }
-      },
-      "pointOfContact": [
-        {
-          "fax": "",
-          "type": "primary",
-          "email": "adam.r.cervantes@uscg.mil",
-          "phone": "2068204863",
-          "fullName": "adam cervantes"
-        }
-      ],
-      "postedDate": "2026-08-07",
-      "resourceLinks": [
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0bf7aed307934dc6bbe2616bbaa794d8/download"
-      ],
-      "responseDeadLine": "2026-08-21T14:30:00-10:00",
-      "solicitationNumber": "20255PR260000292",
-      "title": "Mattresses for Air Station Barbers Point",
-      "type": "Solicitation",
-      "typeOfSetAside": "NONE",
-      "typeOfSetAsideDescription": "No Set aside used",
-      "uiLink": "https://sam.gov/workspace/contract/opp/69485b68ed02414482cb39d78e1f25af/view"
-    },
-    {
-      "active": "Yes",
-      "additionalInfoLink": null,
-      "archiveDate": "2026-10-01",
-      "archiveType": "autocustom",
-      "award": {
-        "awardee": {}
-      },
-      "baseType": "Combined Synopsis/Solicitation",
-      "classificationCode": "6525",
-      "description": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=691ba6d3855d4fdcaefb2af3a92522ff",
-      "fullParentPathCode": "036.3600.36C247",
-      "fullParentPathName": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.247-NETWORK CONTRACT OFFICE 7 (36C247)",
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.sam.gov/prod/opportunities/v2/search?noticeid=691ba6d3855d4fdcaefb2af3a92522ff&limit=1"
-        }
-      ],
-      "naicsCode": "334510",
-      "naicsCodes": [
-        "334510"
-      ],
-      "noticeId": "691ba6d3855d4fdcaefb2af3a92522ff",
-      "officeAddress": {
-        "zipcode": "30904",
-        "city": "AUGUSTA",
-        "countryCode": "USA",
-        "state": "GA"
-      },
-      "organizationType": "OFFICE",
-      "placeOfPerformance": {
-        "streetAddress": "Department of Veterans Affairs Ralph H. Johnson VAMC",
-        "streetAddress2": "NCO 07 109 Bee Street",
-        "city": {
-          "name": "Charleston"
-        },
-        "state": {
-          "code": "SC",
-          "name": "South Carolina"
-        },
-        "zip": "29401",
-        "country": {
-          "code": "USA",
-          "name": "UNITED STATES"
-        }
-      },
-      "pointOfContact": [
-        {
-          "fax": "",
-          "type": "primary",
-          "email": "darius.crane@va.gov",
-          "phone": "(843) 577-5011",
-          "title": "Contracting Officer",
-          "fullName": "Darius Crane"
-        }
-      ],
-      "postedDate": "2026-08-07",
-      "resourceLinks": [
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/fc511bc0b571471cbf7c131bac04ca9d/download"
-      ],
-      "responseDeadLine": "2026-08-17T08:00:00-04:00",
-      "solicitationNumber": "36C24726Q0823",
-      "title": "6525--Sonosite Ultrasound System",
-      "type": "Combined Synopsis/Solicitation",
-      "typeOfSetAside": "SDVOSBC",
-      "typeOfSetAsideDescription": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
-      "uiLink": "https://sam.gov/workspace/contract/opp/691ba6d3855d4fdcaefb2af3a92522ff/view"
     }
   ]
 }
